@@ -1,6 +1,9 @@
 # notipy
 Humble try to get a cross-platform notification mechanism for different OS.
 
+## Status
+This is a **work in progress**. Currently there's only minimal support for OSX and Ubuntu relying on (usually-preinstalled) OS packages. Take a look at the *Supported* section later on this page.
+
 ## Supported
 - OSX (osascript)
 - Ubuntu (send-notify)
