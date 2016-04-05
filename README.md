@@ -11,13 +11,13 @@ This is a **work in progress**. Take a look at the *Supported OS* sub-section.
 **Warning:** Minimal support for OSX and Ubuntu relying on (*usually-preinstalled*) OS packages
 
 ## Installation
-#### When available on pypi
+#### Available through pypi
 `$ pip install notipy`
-#### Until then... *(might need sudo for the last part)*
+#### If you want to install in development mode
 ```bash
 $ git clone https://github.com/aaronfc/notipy.git
 $ cd notipy
-$ pip install .
+$ pip install -e .
 ```
 
 ## Usage

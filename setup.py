@@ -31,6 +31,7 @@ setup(
 
     # The project's main homepage.
     url='https://github.com/aaronfc/notipy',
+    download_url='https://github.com/aaronfc/notipy/tarbal/1.0.0',
 
     # Author details
     author='Aaron Fc',
