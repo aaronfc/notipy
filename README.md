@@ -5,20 +5,23 @@ Humble try to get a cross-platform notification mechanism for different OS.
 This is a **work in progress**. Take a look at the *Supported OS* sub-section.
 
 ### Supported OS
-* OSX (osascript)
-* Ubuntu (send-notify)
+* OSX (osascript since 10.9 Mavericks)
+* Ubuntu (notify-send from [libnotify package](https://launchpad.net/ubuntu/+source/libnotify))
 
 **Warning:** Minimal support for OSX and Ubuntu relying on (*usually-preinstalled*) OS packages
 
 ## Installation
-`$ pip install notipy # When available on pypi`
+#### When available on pypi
+`$ pip install notipy
+#### Until then...
+`$ git clone https://github.com/aaronfc/notipy.git && cd notipy && pip install -e .`
 
 ## Usage
 ### From command line
 `$ notipy "Cool message"`
 ### From python
 ```python
-from notipy import Notipy
+from notipy.cli import Notipy
 Notipy().send("Awesome message")
 ```
 
