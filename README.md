@@ -27,3 +27,4 @@ Notipy().send("Awesome message")
 
 ## Screenshots
 ![OSX Screenshot](https://github.com/aaronfc/notipy/raw/master/docs/images/screenshot-osx.png "OSX Screenshot")
+![Ubuntu Screenshot](https://github.com/aaronfc/notipy/raw/master/docs/images/screenshot-ubuntu.png "Ubuntu Screenshot")
