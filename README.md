@@ -12,9 +12,13 @@ This is a **work in progress**. Take a look at the *Supported OS* sub-section.
 
 ## Installation
 #### When available on pypi
-`$ pip install notipy
-#### Until then...
-`$ git clone https://github.com/aaronfc/notipy.git && cd notipy && pip install -e .`
+`$ pip install notipy`
+#### Until then... *(might need sudo for the last part)*
+```bash
+$ git clone https://github.com/aaronfc/notipy.git
+$ cd notipy
+$ pip install .
+```
 
 ## Usage
 ### From command line
